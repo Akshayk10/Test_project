@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: #77b5fe 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #e7e7e7;
+    border: #ccc solid 1px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #77b5fe;
+}
+
+article {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.player-image-right {
+    float: right;
+    max-width: 300px;
+    height: auto;
+    margin: 0 0 20px 20px; /* Adds spacing around the image */
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
